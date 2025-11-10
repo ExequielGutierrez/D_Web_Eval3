@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column; /* apilados */
+    align-items: center;
+    gap: 20px; /* espacio entre botones */
+}
+
+/* Botones principales (inicio) */
+.btn-ejercicio {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: underline;
+    font-size: 22px;
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 12px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-ejercicio:hover {
+    background-color: #0056b3;
+}
+
+/* Formulario */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Resultado: sin negrita, alineado a la izquierda */
+.resultado {
+    text-align: left;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.resultado2 {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+}
